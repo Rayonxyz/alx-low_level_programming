@@ -1,29 +1,23 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- * 
- * Return: Always 0 (Success/correct)
- */
-
+  * main - Prints some letters of alphabet
+  *
+  * Return: Always (Success)
+  */
 int main(void)
-
 {
-char alphabet;
+	char c;
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-{
-if (alphabet == 'q')
-continue;
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
+	}
 
-else if (alphabet == 'e')
-continue;
+	putchar('\n');
 
-putchar(alphabet);
+	return (0);
 }
-
-putchar('\n');
-
-return (0);
-
-}
-
