@@ -4,7 +4,7 @@
 #include "lists.h"
 
 /**
- * main - AMJ
+ * main - Entry point.
  *
  * Return: Always 0.
  */
